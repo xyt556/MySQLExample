@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySQLExample", "MySQLExample\MySQLExample.csproj", "{0AF73D8D-7A0B-491E-AB22-FE7F3BA51DB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySQLDataDisplay", "MySQLDataDisplay\MySQLDataDisplay.csproj", "{3069A932-952C-4967-8EB2-1F29C24970E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessDatabaseReader", "AccessDatabaseReader\AccessDatabaseReader.csproj", "{B950A4A5-60A6-40D4-AC1C-A73B203D30A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create_Mysql", "Create_Mysql\Create_Mysql.csproj", "{CA77B7B4-1156-4877-88C9-BF1AB041323E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySQL_modify", "MySQL_modify\MySQL_modify.csproj", "{C433B0CE-3B41-49DB-8B69-3DD1F4D1FF36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AF73D8D-7A0B-491E-AB22-FE7F3BA51DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF73D8D-7A0B-491E-AB22-FE7F3BA51DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF73D8D-7A0B-491E-AB22-FE7F3BA51DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF73D8D-7A0B-491E-AB22-FE7F3BA51DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3069A932-952C-4967-8EB2-1F29C24970E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3069A932-952C-4967-8EB2-1F29C24970E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3069A932-952C-4967-8EB2-1F29C24970E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3069A932-952C-4967-8EB2-1F29C24970E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B950A4A5-60A6-40D4-AC1C-A73B203D30A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B950A4A5-60A6-40D4-AC1C-A73B203D30A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B950A4A5-60A6-40D4-AC1C-A73B203D30A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B950A4A5-60A6-40D4-AC1C-A73B203D30A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA77B7B4-1156-4877-88C9-BF1AB041323E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA77B7B4-1156-4877-88C9-BF1AB041323E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA77B7B4-1156-4877-88C9-BF1AB041323E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA77B7B4-1156-4877-88C9-BF1AB041323E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C433B0CE-3B41-49DB-8B69-3DD1F4D1FF36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C433B0CE-3B41-49DB-8B69-3DD1F4D1FF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C433B0CE-3B41-49DB-8B69-3DD1F4D1FF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C433B0CE-3B41-49DB-8B69-3DD1F4D1FF36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43002873-88C9-4523-B2EF-CBEECF7B5FB7}
+	EndGlobalSection
+EndGlobal
