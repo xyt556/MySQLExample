@@ -17,6 +17,7 @@ namespace Create_Mysql
 
         private void btnCreateDB_Click(object sender, EventArgs e)
         {
+            
             try
             {
                 // 创建数据库
@@ -24,7 +25,7 @@ namespace Create_Mysql
                 {
                     connection.Open();
                     MessageBox.Show("数据库连接成功！");
-                    string query = "CREATE DATABASE IF NOT EXISTS xyt1";
+                    string query = $"CREATE DATABASE IF NOT EXISTS {txtDatabase.Text.Trim()}" ;
                     using (MySqlCommand cmd = new MySqlCommand(query, connection))
                     {
                         cmd.ExecuteNonQuery();
@@ -47,7 +48,7 @@ namespace Create_Mysql
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
                 {
                     connection.Open();
-                    string query = "USE xyt1; CREATE TABLE IF NOT EXISTS students1 (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(50), age INT)";
+                    string query = $"USE {txtDatabase.Text.Trim()}; CREATE TABLE IF NOT EXISTS {txtTable.Text.Trim()} (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(50), age INT)";
                     using (MySqlCommand cmd = new MySqlCommand(query, connection))
                     {
                         cmd.ExecuteNonQuery();

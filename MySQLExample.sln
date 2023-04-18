@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create_Mysql", "Create_Mysq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySQL_modify", "MySQL_modify\MySQL_modify.csproj", "{C433B0CE-3B41-49DB-8B69-3DD1F4D1FF36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManager", "BookManager\BookManager.csproj", "{E1D8BD0A-8746-41D0-8446-A766106E68E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C433B0CE-3B41-49DB-8B69-3DD1F4D1FF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C433B0CE-3B41-49DB-8B69-3DD1F4D1FF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C433B0CE-3B41-49DB-8B69-3DD1F4D1FF36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D8BD0A-8746-41D0-8446-A766106E68E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D8BD0A-8746-41D0-8446-A766106E68E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D8BD0A-8746-41D0-8446-A766106E68E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D8BD0A-8746-41D0-8446-A766106E68E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

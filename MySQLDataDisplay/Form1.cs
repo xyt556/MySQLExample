@@ -167,11 +167,6 @@ namespace MySQLDataDisplay
             }
             // 关闭数据库连接
             connection.Close();
-            //finally
-            //{
-            //    // 关闭连接
-            //    conn.Close();
-            //}
         }
     }
 }
